@@ -1,0 +1,65 @@
+body
+   {
+	margin: 0;
+	font-family: "poppins", sans-serif;
+   	background-image:url(" https://codd.cs.gsu.edu/~adhar2/WP/CW/CW0/Social%20Networking/pic.webp");
+	background-blend-mode: multiply;
+	background-size: cover;
+   }
+   
+  
+ *{
+	 box-sizing: border-box;
+ }
+	
+.barbox ul
+{
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	background-color: green;
+}
+.barbox ul li
+{ 
+    display: inline-block;
+}
+.barbox li a
+{
+    display: block;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 25px 20px;
+	font-size: 13px;
+	color: orange;
+	letter-spacing: 10px;
+}
+
+.text{
+	
+	color: maroon;
+	font-size: 60px;
+	font-weight: 300;
+
+}
+.textp{
+	 text-align: center;
+	color:olive;
+	letter-spacing: 5px;
+
+}
+.VisitBar{
+text-decoration: none;
+	display:inline-block;
+	background-color: olive;
+	color:white;
+	text-align: center;
+	border-radius: 80px;
+	padding: 15px 25px;
+}
+
+
+
+
